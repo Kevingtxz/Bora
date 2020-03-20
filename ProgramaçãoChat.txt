@@ -1,0 +1,25 @@
+String textoEnviados;
+String textoRecebidos;
+
+conversa = textoEnviados + textoRecebidos;
+
+buttonEscrever.onclick(input){
+	Escrever(input){
+		textoEnviados.adicionar(input);
+	}
+}
+# enviar mensagem
+
+MostrarFoto()
+# foto visível
+
+EnviarFoto(foto){
+	textoEnviados.adicionar(foto);
+}
+EnviarLocalização(){
+	ApresentarLocalização()
+	#mostra localização do Google Maps
+}
+Voltar.onClick(){
+	layout = layoutInicial;
+)	

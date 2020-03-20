@@ -1,0 +1,243 @@
+/*		navTop		*/
+#navTop{
+	height: auto; 
+	width:100vw; 
+	position: fixed; 
+	opacity: 0.1;
+}
+
+#cBora{
+	 width: 10%;
+}
+#cBora a{
+	 width: 100%;
+}
+#BoraIcon{
+width: 80%; 
+margin: auto;
+}
+
+#cProfile{
+	width: 10%; 
+	height: auto;
+}
+
+#cProfile a{
+	width: 100%;
+}
+#iconProfile{
+	width: 80%; margin: auto; border-radius: 10vw;
+}
+
+#cSearch{
+	margin-right: 2%;
+	margin-left: 2%; 
+	width: 55%; 
+	margin:auto;
+}
+#cSearch input{
+	font-size: 2em; 
+	border-radius: 5vw
+}
+
+#cNotification{
+	width:8%; 
+	margin:auto;
+}
+#cNotification img{
+	width: 100%;
+}
+
+#cMessage{
+	 width:8%;
+	 margin: auto;
+}
+#cMessage img{
+	width: 100%;
+}
+
+#navBot{
+	position: fixed; 
+	width: 100vw; 
+	bottom: 0vw; 
+	height: 15vw; 
+	background-color: white;
+}
+
+#cHome{
+	height: 8vw; 
+	margin: auto;
+}
+#cHome img{
+	height: 100%; 
+	margin:auto;
+}
+
+#cSend{
+	height: 8vw; 
+	margin: auto;
+}
+#cSend img{
+	height: 100%; 
+	margin:auto;
+}
+
+#cWatch{
+	height: 8vw;
+	margin: auto;
+}
+#cWatch img{
+	height: 100%; 
+	margin:auto;
+}
+
+#cNotificationEvent{
+	min-height: 15vw;
+}
+.cNotificationEvent{
+	margin-top: -2vw;
+	border-bottom: 0.3vw #cccccc solid;
+	height: 15vw; 
+	width: 100vw; 
+	margin: 4vw 4vw 0vw 4vw; 
+	display: inline-flex;
+}
+.cIconNotification{
+	height: 12vw; 
+	width: 12vw;
+	margin-right: 2vw;
+}
+.imgNotification{
+	height: 12vw;
+	width: 12vw;
+	border-radius: 6vw;
+	border: 0.3vw #cccccc solid;
+}
+
+.cTextNotification{
+	overflow: hidden;
+	width: 80%; 
+	font-size: 1.7em;
+}
+.titleNotification{
+	display: block; 
+	width: 90vw;
+	font-size: 1.2em; 
+	margin-top:-1vw;
+}
+.dateNotification{
+	margin-left:60%; 
+	font-size: 1em;
+}
+.textNotification{
+	height: 8vw; 
+	margin-top: -2vw; 
+	width: 75vw; 
+	overflow: hidden;
+}
+
+.cPageEvent{
+	height: 100vh; 
+	width:100vw; 
+	background-color: white; 
+	top:0; 
+	display: none;
+}
+.EventTitle{
+	font-size: 3em; 
+	font-weight: bold; 
+	margin: 1vw 0vw 0vw 5vw;
+}
+.cLocalization{
+	margin: 1vw 0vw 0vw 5vw;
+}
+.imgMiniMap{
+	width:2.5vw; 
+	height: 4vw; 
+	display: inline-flex; 
+	margin:-2vw 0.5vw 0 0;	
+	border-radius: 10vw;
+}
+.textPageEvent{
+	font-size: 2em; 
+	font-weight: bold; 
+	display: inline-flex;
+}
+.cMinWatchCalendar{
+	margin: 0vw 0vw 0vw 10vw;
+}
+.imgWatchCalendar{
+	width:4vw; 
+	height: 4vw; 
+	display: inline-flex; 
+	margin: -2vw 0.1vw 0 0;						
+	border-radius: 10vw;
+}
+.imgCalendar{
+	border-radius: 0vw;
+}
+.cGroups{
+	margin: 1vw 0vw 0vw 6.5vw;	
+}
+.imgGroup1{
+	margin-left: 0;
+}
+.imgGroup{
+	margin-left:-2vw; 
+	width: 4vw; 
+	height: 4vw;
+	border-radius: 10vw;
+}
+.distance{
+	font-size: 2em; 
+	margin: 1vw 0vw 0vw 5vw;
+}
+.textPage{
+	font-size: 2em; 
+	margin: 4vw 0vw 0vw 5vw; 
+	width: 90%; 
+	height: 80vw; 
+	overflow: hidden;
+}
+.imgConfirm{
+	bottom: 5vh; 
+	right: 10vw; 
+	width: 15vw; 
+	height: 15vw;
+	border-radius: 10vw;
+}
+.imgNot{
+	bottom: 5vh; 
+	left: 10vw; 
+	width: 15vw; 
+	height: 15vw;
+	border-radius: 10vw;
+}
+.imgMap{
+	bottom: calc(5vh + 1vw);
+	left: 42.5vw; 
+	width: 13vw; 
+	height: 13vw;
+	border-radius: 2vw;"
+}
+
+#cPresentationsImages{
+}
+.cPresentationImage{
+	margin: 4vw 4vw 0vw 4vw;
+	height: 60vw;
+}
+.cPresentationText{
+	margin-top: -35vw;
+	width: 92vw;
+}
+.presentationTitle{
+	font-size:4em; 
+	color: white;
+}
+.presentationTime{
+	margin-top:15vw; 
+	margin-left:1vw;
+	font-size:2.5em; 
+	color: white;
+}

@@ -1,0 +1,90 @@
+Abrir app()
+
+Imagem login (alguns seg)
+
+Primeiro layout apresentado{
+
+	Perfil{
+	#segundo layout
+		Página com a foto, nome e idade
+		
+		Configurações{
+		#terceiro layout
+		
+			Gostos pessoais;
+			Escolhas de pré seleção;
+			Sobre o app;
+			#descrição do app
+					
+		}
+		Voltar()
+	}
+
+	Chat{
+	$terceiro layout
+
+		ListarContatos()
+		# Lista contatos, grupos e eventos -conectados
+		
+		mostrarFoto()
+		# Opção para mostrar ou esconder foto
+		# sem foto é pré seleção antes que mudem em configurações
+		conversas individuais, de grupo ou por evento
+		
+		conversas = String;
+		
+		miniBlocoDeNotas = texto;
+		#onde será colocado o texto para ser adicionado as conversas
+		Escrever(){
+			envia o texto escrito no miniBlocodeNotas;
+		}
+		apagarConversa()
+		#deleta conversas anteriores
+		
+		EnviarFoto()
+		# enviar foto para conversa
+		EnviarLocalização()
+		# enviar localização
+		
+		Voltar()
+		
+	}
+	Pesquisa(){
+	#quarto layout
+		# procurar por palavra para evento
+		# organizado por listas
+		# organizado por distância padrão
+		
+		Voltar()
+
+	}
+	
+	Inicial()
+	# primeiro layout atualizado
+
+	Adicionar evento(){
+	
+		# para adicionar novo evento
+		# local, data, hora, nome, breve descrição e foto
+	
+		Voltar()
+	}
+	# caracterizando os eventos
+	# eventos são todo tipo de reuniões para qualquer tipo de coisa
+	# futebol, vôlei, basquete, palestra, paintball, RPG, war, magic, festa, karaoke, swordplay, inglês
+
+	Meus eventos(){
+
+		# lista de todos os meus eventos que ainda não aconteceram organizado por data
+		Voltar()		
+
+	}
+
+	Notificações(){
+		Alerta("Bora lá caraí");
+		# padrão
+		# outros textos para as pessoas brincarem
+	}
+}
+
+

@@ -1,0 +1,14 @@
+String textoPesquisa;
+
+textoPesquisa = input;
+
+Comparar(textoPesquisa){
+	
+}
+# verificar se o texto bate com os eventos listados
+
+
+
+Voltar.onClick(){
+	layout = layoutInicial;
+)

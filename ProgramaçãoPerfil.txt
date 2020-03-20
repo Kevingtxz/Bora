@@ -1,0 +1,10 @@
+Foto.onClick(){
+	foto = buscarFoto();
+}
+
+Configurações.onClick(){
+	layout = layoutConfigurações;
+}
+Voltar.onClick(){
+	layout = layoutInicial;
+)

@@ -1,0 +1,24 @@
+Perfil.onClick(){
+	layout = layoutPerfil;
+}
+# mudar para página Perfil
+
+Pesquisa.onClick(textoPesquisa){
+	Comparar(textoPesquisa, Eventos.Data);
+}
+
+Chat.onClick(){
+	layout = layoutChat;
+}
+
+Inicial(){
+	layout = layoutInicial;
+}
+
+AdicionarEvento(evento){
+	Eventos.postar(evento);
+}
+
+MeusEventos(){
+	layout = layoutMeusEventos;
+}
