@@ -1,275 +1,331 @@
-<!DOCTYPE html> 
-<html lang="pt-br">
-<head>
-	<title>Bora</title>
-	<meta charset="UTF-8">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<!DOCTYPE html> 
+	<html lang="pt-br">
+	<head>
+		<title>Bora</title>
+		<meta charset="UTF-8">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-	<link rel='shortcut icon' href="Images/Icon/Bora.gif"/>
-	<link href="style/style.css" rel="stylesheet"/>
-</head>
-<body>
+		<link rel='shortcut icon' href="Images/Icon/Bora.gif"/>
+		<link href="style/style.css" rel="stylesheet"/>
+	</head>
+	<body>
 
-<!-- Nav TOP -->
+	<!-- Nav TOP -->
 
-	<nav id="navTop" class="nav">
-		<div id="cBora">
-			<a href="#">
-			  	<img src="Images/Icon/BoraIcon.png" id="BoraIcon">
-			</a>
-		</div>
-		<div id="cProfile">
-			<a href="#">
-				<img src="images/nav/profile.png" id="iconProfile">
-			</a>
-		</div>
-		<div id="cSearch">
-			<input class="form-control" type="text" placeholder="Search" aria-label="Search">
-		</div>
+		<nav id="navTop" class="nav">
+			<div>
+				<a href="#">
+				  	<img src="Images/Icon/BoraIcon.png" id="BoraIconNavTOP">
+				</a>
+			</div>
+			<div>
+				<a href="#" id="cIconProfileNavTOP">
+					<img src="images/nav/profile.png" id="iconProfileNavTOP">
+				</a>
+			</div>
+			<div id="cSearchNavTOP">
+				<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+			</div>
+
+			<div id="cNotificationNavTOP">
+				<img src="images/Main/notification.png"> 
+			</div>
+			<div id="cMessageIconNavTOP">
+				<img src="images/nav/message.png">
+			</div>
+		</nav>
+
+	<!-- Nav TOP -->
+
+	<!-- Nav BOT -->
+
+		<nav class="nav" id="navBot">
+			<div id="cHomeNavBOT">
+				<img src="images/NavBot/home.png">
+			</div>
+			<div id="cSendNavBOT">
+				<img src="images/NavBot/send.png">
+			</div>
+			<div id="cWatchNavBOT">
+				<img src="images/NavBot/watch.png">
+			</div>
+		</nav>
+
+	<!-- Nav BOT -->
+
+
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             NotificationsEvent                                                             -->
+	<!---------------------------------------------------------------------------------------------------------------->
 
 		<div id="cNotification">
-			<img src="images/Main/notification.png"> 
+			<div class="cNotification" style="">
+				<div class="cProfileAndTextNotification" style="">
+					<div class="cProfileAndTitleNotification">
+						<img src="images/Nav/profile.png" class="imgProfileNotification img-fluid" alt="Imagem responsiva">
+						<p class="titleNotification" style="">Volei</p>
+					</div>
+						<p class="textNotification" style="">
+							adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+							adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+							adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+							adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+							adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+							adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+							adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+						</p>
+					<div class="cTextNotification" style="">
+					</div>
+				</div>
+				<div class="cNotAndConfirmNotification" style="">
+					<div class="cNotNotification">
+						<img src="images/Main/not.jpg" class="imgNotNotification">
+					</div>				
+					<div class="cConfirmNotification">
+						<img src="images/Main/confirm.png" class="imgConfirmNotification">					
+					</div>				
+				</div>
+			</div>
 		</div>
+
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             NotificationsEvent                                                             -->
+	<!---------------------------------------------------------------------------------------------------------------->
+
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             MessageEvent                                                            -->
+	<!---------------------------------------------------------------------------------------------------------------->
+
 		<div id="cMessage">
-			<img src="images/nav/message.png">
-		</div>
-	</nav>
-
-<!-- Nav TOP -->
-
-<!-- Nav BOT -->
-
-	<nav class="nav" id="navBot">
-		<div id="cHome">
-			<img src="images/NavBot/home.png">
-		</div>
-		<div id="cSend">
-			<img src="images/NavBot/send.png">
-		</div>
-		<div id="cWatch">
-			<img src="images/NavBot/watch.png">
-		</div>
-	</nav>
-
-<!-- Nav BOT -->
-
-
-<!---------------------------------------------------------------------------------------------------------------->
-<!--                             NotificationsEvent                                                             -->
-<!---------------------------------------------------------------------------------------------------------------->
-
-	<div id="cNotificationEvent" style="display: none;">
-		<div class="cNotificationEvent">
-			<div class="cIconNotification">
-				<img src="images/Nav/profile.png" class="imgNotification img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="cTextNotification">
-				<p>
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-				</p>
-			</div>
-		</div>
-	</div>
-
-<!---------------------------------------------------------------------------------------------------------------->
-<!--                             NotificationsEvent                                                             -->
-<!---------------------------------------------------------------------------------------------------------------->
-
-<!---------------------------------------------------------------------------------------------------------------->
-<!--                             MessageEvent                                                            -->
-<!---------------------------------------------------------------------------------------------------------------->
-
-	<div id="cNotificationEvent" style="display: none;">
-		<div class="cNotificationEvent">
-			<div class="cIconNotification">
-				<img src="images/Nav/profile.png" class="imgNotification img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="cTextNotification">
-				<p class="titleNotification">Vôlei<span class="dateNotification">10/10</span> </p>
-				<p class="textNotification">
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-					adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
-				</p>
-			</div>
-		</div>
-	</div>
-
-<!---------------------------------------------------------------------------------------------------------------->
-<!--                             MessageEvent                                                             -->
-<!---------------------------------------------------------------------------------------------------------------->
-
-
-<!---------------------------------------------------------------------------------------------------------------->
-<!--                             PageEvent                                                                      -->
-<!---------------------------------------------------------------------------------------------------------------->
-
-
-
-			<div class="cPageEvent position-fixed">
-				<img src="images/voley.jpg"class="img-fluid" alt="Imagem responsiva">
-				<div>
-					<p class="EventTitle text-left">Vôlei</p>
-					<div class="cMapAndDate" style="display: flex; margin-left: 0vw;">
-						<div class="cLocalization" style="width: 20vw; text-overflow: hidden; display: inline-flex; margin-top: 2.5vw;">
-							<img class="imgMiniMap" src="images/Main/minMap.png">
-							<p class="textPageEvent text-left text-nowrap" style="margin-top: -2.5vw;">Macaé</p>
-						</div>
-						<div class="space" style="width: 1%; display: inline-flex;">
-							
-						</div>
-						<div class="cDate">
-							<img src="images/Main/calendar.png" class="imgCalendar imgWatchCalendar">
-							<p class="textPageEvent text-left">10/10</p>
-						</div>
-					</div>
-					<div class="cGroupAndTime"style="display: flex; margin-left: 0vw; margin-top: -1vw;">
-						<div class="cGroups"style="width: 20vw; text-overflow: hidden; display: inline-flex;">
-							<img src="images/Main/group.png" class="imgGroup1 imgGroup" style="margin-left: -1vw;">
-							<img src="images/Main/group.png" class="imgGroup">
-							<img src="images/Main/group.png" class="imgGroup">
-						</div>
-						<div class="space" style="width: 1%; display: inline-flex;">
-							
-						</div>
-						<div class="" style="margin-left: -1vw;">
-							<img src="images/Main/watch.png" class="imgWatchCalendar">
-							<p class="textPageEvent text-left">17:00</p>
-						</div>
-					</div>
-					<p class="distance text-left">1km</p>
-					<p class="textPage text-justify">
-							
-							Ela senta na pica branca
-Senta no meu
-Ela ela senta na pica preta
-Senta no dele
-Ela senta ela senta na pica branca
-Ela senta na pica preta
-Ela ela senta na pica branca
-Ela senta na pica preta
-Ela queria ter duas bucetas e
-Sentar ao mesmo tempo na branca e na preta
-Ela queria ter duas bocetas, duas bucetas, duas bucetas
-Ela queria ter duas bucetas e
-Sentar ao mesmo tempo na branca e na preta
-Ela queria ter duas bucetas, duas duas duas bucetas
-
+			<div class="cMessage">
+				<div class="cIconMessage">
+					<img src="images/Nav/profile.png" class="imgMessage img-fluid" alt="Imagem responsiva">
+				</div>
+				<div class="cTextMessage">
+					<p class="titleMessage">Volei</p>
+					<p class="dateMessage text-right">10/10</p>
+					<p class="textMessage">
+						adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+						adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+						adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+						adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+						adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+						adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
+						adub audbub  adubbu adub bu aadbu bu adbu abuda ubbuda b uadubd abuda buad ad buad budbua 
 					</p>
+				</div>
+			</div>
+		</div>
 
-					<img src="images/Main/confirm.png"  class="imgConfirm position-fixed">
-					<img src="images/Main/not.jpg"  class="position-fixed">
-					<img src="images/Main/map.png"  class="position-fixed">
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             MessageEvent                                                             -->
+	<!---------------------------------------------------------------------------------------------------------------->
+
+
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             SmallPageEvent                                                                      -->
+	<!---------------------------------------------------------------------------------------------------------------->
+
+
+
+				<div class="cSmallPageEvent position-fixed">
+					<img src="images/voley.jpg"class="imgSmallPageEvent img-fluid" alt="Imagem responsiva">
+					<div class="ccTextSmallPageEvent">
+						<div class="ccTextSmallPageEvent">
+							<div class="cTitleAndDistance">
+								<p class="titleSmallPageEvent">Vôlei</p>
+								<p class="textDistanceSmallPageEvent">1km</p>
+							</div>
+							<div class="cLocalizationAndDateSmallPageEvent">
+								<div class="cLocalizationSmallPageEvent" style="">
+									<img class="imgMiniMapSmallPageEvent" src="images/Main/minMap.png">
+									<p class="textLocationSmallPageEvent text-left text-nowrap" style="">Macaé</p>
+								</div>
+								<div class="cDateSmallPageEvent">
+									<img src="images/Main/calendar.png" class="imgCalendarSmallPageEvent">
+									<p class="textDateSmallPageEvent text-left">10/10</p>
+								</div>
+							</div>
+							<div class="cGroupAndTimeSmallPageEvent"style="">
+								<div class="cGroupsSmallPageEvent"style="">
+									<img src="images/Main/group.png" class="imgGroupFirstSmallPageEvent imgGroupSmallPageEvent">
+									<img src="images/Main/group.png" class="imgGroupSmallPageEvent">
+									<img src="images/Main/group.png" class="imgGroupSmallPageEvent">
+								</div>
+								<div class="cTimeSmallPageEvent">
+									<img src="images/Main/timeSmallPageEvent.png" class="timeSmallPageEvent">
+									<p class="textPageEventSmallPageEvent text-left">17:00</p>
+								</div>
+							</div>
+						</div>
+						<div class="cTextSmallPageEvent" style="">
+							<p class="textSmallPageEvent text-justify" style="">
+									
+									Ela senta na pica branca
+		Senta no meu
+		Ela ela senta na pica preta
+		Senta no dele
+		Ela senta ela senta na pica branca
+		Ela senta na pica preta
+		Ela ela senta na pica branca
+		Ela senta na pica preta
+		Ela queria ter duas bucetas e
+		Sentar ao mesmo tempo na branca e na preta
+		Ela queria ter duas bocetas, duas bucetas, duas bucetas
+		Ela queria ter duas bucetas e
+		Sentar ao mesmo tempo na branca e na preta
+		Ela queria ter duas bucetas, duas duas duas bucetas
+		Ela ela senta na pica preta
+		Senta no dele
+		Ela senta ela senta na pica branca
+		Ela senta na pica preta
+		Ela ela senta na pica branca
+		Ela senta na pica preta
+		Ela queria ter duas bucetas e
+		Sentar ao mesmo tempo na branca e na preta
+		Ela queria ter duas bocetas, duas bucetas, duas bucetas
+		Ela queria ter duas bucetas e
+		Sentar ao mesmo tempo na branca e na preta
+		Ela queria ter duas bucetas, duas duas duas bucetas
+		Ela ela senta na pica preta
+		Senta no dele
+		Ela senta ela senta na pica branca
+		Ela senta na pica preta
+		Ela ela senta na pica branca
+		Ela senta na pica preta
+		Ela queria ter duas bucetas e
+		Sentar ao mesmo tempo na branca e na preta
+		Ela queria ter duas bocetas, duas bucetas, duas bucetas
+		Ela queria ter duas bucetas e
+		Sentar ao mesmo tempo na branca e na preta
+		Ela queria ter duas bucetas, duas duas duas bucetas
+
+							</p>
+						</div>
+						<div>
+							<img src="images/Main/confirm.png"  class="imgConfirmSmallPageEvent position-fixed">
+							<img src="images/Main/not.jpg"  class="imgNotSmallPageEvent position-fixed">
+							<img src="images/Main/map.png"  class="imgMapSmallPageEvent position-fixed">
+						</div>
+					</div>
+				</div>
+
+
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             SmallPageEvent                                                                      -->
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             StatusLayout                                                                   -->
+	<!---------------------------------------------------------------------------------------------------------------->
+	<div style="" class="cLogo-StatusLayout">
+			<img src="Images/Icon/BoraIcon.png" style="" class="imgLogo-StatusLayout">
+			<div style="" class="cTextLogo-StatusLayout">
+				<p style="" class="textLogo-StatusLayout"> BORA</p>
+			</div>
+	</div>
+	<div style="" id="cMain-StatusLayout">
+			<div style="" class="c-StatusLayout"> 
+				<div class="cImg-StatusLayout" style="">
+					<img src="images/verticalFutebol.jpg" class="img-StatusLayout img-fluid">
 				</div>
 			</div>
 
-
-<!---------------------------------------------------------------------------------------------------------------->
-<!--                             PageEvent                                                                      -->
-<!---------------------------------------------------------------------------------------------------------------->
-
-<!------------------------------- Presentation Image ------------------------------------>
-<!------------------------------- Presentation Image ------------------------------------>
-<!------------------------------- Presentation Image ------------------------------------>
-
- 	<div id="cPresentationsImages"> <!-- Presentations Images Container-->
-		<div class="cPresentationImage">
-			<div>
-				<img src="images/voley.jpg" class="img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="cPresentationText">  
-				<h1 class="presentationTitle text-center text-nowrap">Trabalho Voluntário</h1>
-				<p class="presentationTime text-left">Horário:12:30<br/>Dia:10/10</p>
-			</div>
-		</div>
-<!------------------------------- Presentation Image ------------------------------------>
-<!------------------------------- Presentation Image ------------------------------------>
-<!------------------------------- Presentation Image ------------------------------------>
-
-
-		<div class="cPresentationImage">
-			<div>
-				<img src="images/voluntario.jpg" class="img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="cPresentationText">  
-				<h1 class="presentationTitle text-center text-nowrap">Trabalho Voluntário</h1>
-				<p class="presentationTime text-left">Horário:12h<br/>Dia:10/10</p>
-			</div>
-		</div>
-		<div class="cPresentationImage">
-			<div>
-				<img src="images/basquete.jpg" class="img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="cPresentationText">
-				<h1 class="presentationTitle text-center text-nowrap">Basquete do Mirante</h1>
-				<p class="presentationTime text-left">Horário:20h<br/>Dia:21/10</p>
-			</div>
-		</div>
-		<div class="cPresentationImage">
-			<div>
-				<img src="images/god.jpg" class="img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="cPresentationText">  
-				<h1 class="presentationTitle text-center text-nowrap">Adoração</h1>
-				<p class="presentationTime text-left">Horário:22h<br/>Dia:Todos Dias</p>
-			</div>
-		</div>
 	</div>
-		<!-- TESTAR SCROOL ---
-		<div class="presentationImage">
-			<div>
-				<img src="images/voluntario.jpg" class="img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="presentationText
-			">  
-				<h1 class="text-center text-nowrap" class="presentationTitle">Trabalho Voluntário</h1>
-				<p class="text-left" class="presentationTime">Horário:12h<br/>Dia:10/10</p>
-			</div>
-		</div>
-		<div class="presentationImage">
-			<div>
-				<img src="images/basquete.jpg" class="img-fluid" alt="Imagem responsiva">
-			</div>
-			<div class="presentationText
-			">
-				<h1 class="text-center text-nowrap" class="presentationTitle">Basquete do Mirante</h1>
-				<p class="text-left" class="presentationTime">Horário:20h<br/>Dia:21/10</p>
-			</div>
-		</div>
-	</div>
-	TESTAR SCROOL -->
 
-	<script type="text/javascript">
-		$(".cPresentationImage").click(function(){
-			  $(".cPageEvent").css('display','block');
-		});
-		$(".cPageEvent").click(function(){
-			$(this).css('display','none');
-		});
-		$('#navTop').mouseover(function(){
-			$(this)
-				.css('opacity','1');
-		}).mouseleave(function(){
-			$(this)
-				.css('opacity','0.1');
-		});
-	</script>
-</body>
-</html
+	<!---------------------------------------------------------------------------------------------------------------->
+	<!--                             StatusLayout                                                                   -->
+	<!---------------------------------------------------------------------------------------------------------------->
+
+
+
+	<!------------------------------- Presentation  ------------------------------------>
+	<!------------------------------- Presentation  ------------------------------------>
+	<!------------------------------- Presentation  ------------------------------------>
+
+	 	<div id="cPresentationsImages"> <!-- Presentations Images Container-->
+		 	<div class="cPresentation">
+		<!------------------------------- ProfilePosterPresentation ----------------------------------------->
+				<div class="cProfilePoster">
+					<div class="cImgProfilePoster">
+						<img src="images/EventProfile/IconProfile.png" class="imgProfile img-fluid">
+					</div>
+					<div class="cTextProfilePoster" style="">
+						<p class="profileName" style="">Volei</p>
+						<p class="timePost" style="">16:10</p>
+					</div>
+					<div class="cMapProfilePoster" style="">
+						<img class="imgMapProfilePoster" src="images/Main/map.png" style="">
+					</div>
+					<div class="cEllipsis" style="">
+						<img class="imgEllipsis" src="images/EventProfile/3ponts.png" style="">
+					</div>
+				</div>
+		<!------------------------------- ProfilePosterPresentation ----------------------------------------->
+		<!------------------------------- PresentationImage  ------------------------------------>
+				<div class="cPresentationImage">
+					<div class="text-center">
+						<img src="images/voley.jpg" class="img-fluid imgPresentation" alt="Imagem responsiva">
+					</div>
+					<div class="cPresentationText">  
+						<h1 class="presentationTitle text-center text-nowrap">Vôlei</h1>
+						<p class="presentationTime text-left">Horário:16:10<br/>Dia:25/04</p>
+					</div>
+				</div>
+			</div>
+		<!------------------------------- PresentationImage  ------------------------------------>
+
+		<!------------------------------- Presentation  ------------------------------------>
+		<!------------------------------- Presentation  ------------------------------------>
+		<!------------------------------- Presentation  ------------------------------------>
+
+				<div class="cProfilePoster">
+					<div class="cImgProfilePoster">
+						<img src="images/EventProfile/IconProfile.png" class="imgProfile img-fluid">
+					</div>
+					<div class="cTextProfilePoster" style="">
+						<p class="profileName" style="">Volei</p>
+						<p class="timePost" style="">16:10</p>
+					</div>
+					<div class="cMapProfilePoster" style="">
+						<img class="imgMapProfilePoster" src="images/Main/map.png" style="">
+					</div>
+					<div class="cEllipsis" style="">
+						<img class="imgEllipsis" src="images/EventProfile/3ponts.png" style="">
+					</div>
+				</div>
+		
+				<div class="cPresentationImage">
+					<div>
+						<img src="images/voluntario.jpg" class="img-fluid" alt="Imagem responsiva">
+					</div>
+					<div class="cPresentationText">  
+						<h1 class="presentationTitle text-center text-nowrap">Trabalho Voluntário</h1>
+						<p class="presentationTime text-left">Horário:12h<br/>Dia:10/10</p>
+					</div>
+				</div>
+		</div>
+		<div style="height: 15vh;"></div>
+		<script type="text/javascript">
+			$(".imgPresentation").click(function(){
+				  $(".cSmallPageEvent").css('display','block');
+			});
+			$(".cSmallPageEvent").click(function(){
+				$(this).css('display','none');
+			});
+			$('#navTop').mouseover(function(){
+				$(this)
+					.css('opacity','1');
+			}).mouseleave(function(){
+				$(this)
+					.css('opacity','0.1');
+			});
+		</script>
+	</body>
+	</html

@@ -1,61 +1,65 @@
+body{
+	width: 100vw;
+	overflow: scroll;
+}
+/*		navTop		*/
 /*		navTop		*/
 #navTop{
 	height: auto; 
 	width:100vw; 
 	position: fixed; 
 	opacity: 0.1;
+	margin-bottom: 100vh;
 }
 
-#cBora{
-	 width: 10%;
+#BoraIconNavTOP{
+ 	height: 9vw;
+ 	width: 9vw;
+	margin: auto;
 }
-#cBora a{
-	 width: 100%;
+#cIconProfileNavTOP{
+	height: 9vw;
+	width: 9vw;
 }
-#BoraIcon{
-width: 80%; 
-margin: auto;
-}
-
-#cProfile{
-	width: 10%; 
-	height: auto;
-}
-
-#cProfile a{
-	width: 100%;
-}
-#iconProfile{
-	width: 80%; margin: auto; border-radius: 10vw;
+#iconProfileNavTOP{
+	width: 9vw; 
+	height: 9vw;
+	margin: auto;
+	border-radius: 5vw;
 }
 
-#cSearch{
+#cSearchNavTOP{
 	margin-right: 2%;
 	margin-left: 2%; 
-	width: 55%; 
+	width: 58vw; 
 	margin:auto;
 }
-#cSearch input{
+#cSearchNavTOP input{
 	font-size: 2em; 
 	border-radius: 5vw
 }
 
-#cNotification{
-	width:8%; 
+#cNotificationNavTOP{
+	margin-top: 1vh; 
+	width:8vw; 
 	margin:auto;
 }
-#cNotification img{
+#cNotificationNavTOP img{
 	width: 100%;
 }
 
-#cMessage{
-	 width:8%;
+#cMessageIconNavTOP{
+	 width:8vw;
 	 margin: auto;
 }
-#cMessage img{
+#cMessageIconNavTOP img{
 	width: 100%;
 }
+/*		navTop		*/
+/*		navTop		*/
 
+/*		navBot		*/
+/*		navBot		*/
 #navBot{
 	position: fixed; 
 	width: 100vw; 
@@ -64,168 +68,407 @@ margin: auto;
 	background-color: white;
 }
 
-#cHome{
+#cHomeNavBOT{
 	height: 8vw; 
 	margin: auto;
 }
-#cHome img{
+#cHomeNavBOT img{
 	height: 100%; 
 	margin:auto;
 }
 
-#cSend{
+#cSendNavBOT{
 	height: 8vw; 
 	margin: auto;
 }
-#cSend img{
+#cSendNavBOT img{
 	height: 100%; 
 	margin:auto;
 }
 
-#cWatch{
+#cWatchNavBOT{
 	height: 8vw;
 	margin: auto;
 }
-#cWatch img{
+#cWatchNavBOT img{
 	height: 100%; 
 	margin:auto;
 }
+/*		navBot		*/
+/*		navBot		*/
 
-#cNotificationEvent{
-	min-height: 15vw;
+/*		Notification	*/
+/*		Notification	*/
+#cNotification{
+	display: none;
+	padding-top: 1vh; 
+	height: 100vh; 
 }
-.cNotificationEvent{
+.cNotification{
+	border-bottom: 0.3vw #cccccc solid; 
+	width: 100vw; 
+	height: 10vh;
+	overflow: hidden;
+}
+.cProfileAndTextNotification{
+	display: inline-block; 
+	width: 70vw; 
+	margin-left: 8vw;
+}
+.cProfileAndTitleNotification{
+	margin-right: 1vw;
+	display: inline-block;
+	width: 8vw;
+	overflow: hidden;
+	height: 13vw;
+}
+.imgProfileNotification{
+	display: block
+;	width: 8vw;
+	height: 8vw;
+	margin-left:1vw;
+}
+.titleNotification{
+	font-weight: bold;
+	font-size: 2em;
+}
+.dateNotification{
+	font-size: 1.8em;
+	margin-top: -7vw;
+}
+.textNotification{
+	margin-bottom: -2vw;
+	display: inline-block;
+	font-size: 2em;
+	height: 15vw;
+	width: 55vw;
+	margin-left: 3vw;
+	overflow: hidden;
+}
+.cNotAndConfirmNotification{
+	display: inline-block; 
+}
+.imgNotNotification{
+	width: 7vw; 
+	height: 7vw; 
+	border-radius: 2.5vw;
+}
+.imgConfirmNotification{
+	width: 7vw; 
+	height: 7vw; 
+	margin-top: 1vw; 
+	margin-bottom: 2vw;
+	border-radius: 2.5vw;
+}
+/*		Notification	*/
+/*		Notification	*/
+
+/*		Message  	*/
+/*		Message  	*/
+#cMessage{
+	display: none;
+	height: 100vh;
+}
+.cMessage{
 	margin-top: -2vw;
 	border-bottom: 0.3vw #cccccc solid;
 	height: 15vw; 
 	width: 100vw; 
 	margin: 4vw 4vw 0vw 4vw; 
 	display: inline-flex;
+	overflow: hidden;
 }
-.cIconNotification{
+.cIconMessage{
 	height: 12vw; 
 	width: 12vw;
 	margin-right: 2vw;
 }
-.imgNotification{
-	height: 12vw;
-	width: 12vw;
-	border-radius: 6vw;
+.imgMessage{
+	border-radius: 5vw;
 	border: 0.3vw #cccccc solid;
+	width: 10vw; 
+	height: 10vw;
 }
 
-.cTextNotification{
+.cTextMessage{
 	overflow: hidden;
-	width: 80%; 
+	width: 70vw; 
 	font-size: 1.7em;
 }
-.titleNotification{
+.titleMessage{
 	display: block; 
 	width: 90vw;
 	font-size: 1.2em; 
 	margin-top:-1vw;
 }
-.dateNotification{
-	margin-left:60%; 
+.dateMessage{
+	margin-top: -5vw;
 	font-size: 1em;
 }
-.textNotification{
+.textMessage{
 	height: 8vw; 
 	margin-top: -2vw; 
-	width: 75vw; 
+	width: 70vw; 
 	overflow: hidden;
 }
+/*		Message  	*/
+/*		Message  	*/
 
-.cPageEvent{
+/*	 SmallPageEvent */
+/*	 SmallPageEvent */
+.cSmallPageEvent{
 	height: 100vh; 
 	width:100vw; 
 	background-color: white; 
 	top:0; 
 	display: none;
 }
-.EventTitle{
-	font-size: 3em; 
-	font-weight: bold; 
-	margin: 1vw 0vw 0vw 5vw;
+.imgSmallPageEvent{
 }
-.cLocalization{
-	margin: 1vw 0vw 0vw 5vw;
+.ccTextSmallPageEvent{
+	margin-left: 3vw;
 }
-.imgMiniMap{
-	width:2.5vw; 
-	height: 4vw; 
-	display: inline-flex; 
-	margin:-2vw 0.5vw 0 0;	
-	border-radius: 10vw;
+.cTitleAndDistance{
+	width: 85vw;
+	display: block;
 }
-.textPageEvent{
-	font-size: 2em; 
-	font-weight: bold; 
-	display: inline-flex;
+.titleSmallPageEvent{
+	font-size: 3.3em;
+	display: inline-block;
 }
-.cMinWatchCalendar{
-	margin: 0vw 0vw 0vw 10vw;
+.textDistanceSmallPageEvent{
+	font-size: 2em;
+	float: right;
+	margin-top: 1vw;
 }
-.imgWatchCalendar{
-	width:4vw; 
-	height: 4vw; 
-	display: inline-flex; 
-	margin: -2vw 0.1vw 0 0;						
-	border-radius: 10vw;
+.cLocalizationAndDateSmallPageEvent{
+	width:30vw;	
 }
-.imgCalendar{
-	border-radius: 0vw;
+.cLocalizationSmallPageEvent{
+	display: inline-block;
 }
-.cGroups{
-	margin: 1vw 0vw 0vw 6.5vw;	
+.imgMiniMapSmallPageEvent{
+	display: inline-block;
+	width: 3vw;
+	height: 4.5vw;
+	margin-top: -1.5vw;
+	margin-right: 1vw;
 }
-.imgGroup1{
-	margin-left: 0;
+.textLocationSmallPageEvent{
+	font-size: 2em;
+	display: inline-block;
+	}
+.cDateSmallPageEvent{
+	display: inline-block;
+	float: right;
 }
-.imgGroup{
-	margin-left:-2vw; 
-	width: 4vw; 
-	height: 4vw;
-	border-radius: 10vw;
+.imgCalendarSmallPageEvent
+{	display: inline-block;
+	height: 5vw;
+	width: 5vw;
+	margin-top: -2vw;
 }
-.distance{
-	font-size: 2em; 
-	margin: 1vw 0vw 0vw 5vw;
+.textDateSmallPageEvent{
+	font-size: 2em;
+	display: inline-block;
 }
-.textPage{
-	font-size: 2em; 
-	margin: 4vw 0vw 0vw 5vw; 
-	width: 90%; 
-	height: 80vw; 
+.textSmallPageEvent{
+	font-size: 2em;
+}
+.cGroupAndTimeSmallPageEvent{
+	display: inline-block;
+	width: 30vw;
+}
+.cGroupsSmallPageEvent{
+	display: inline-block;
+	margin-left: 3vw;
+}
+.imgGroupFirstSmallPageEvent{
+	margin-left: 2vw;
+}
+.imgGroupSmallPageEvent{
+	height: 5vw;
+	width: 5vw;
+	margin-left: -2.5vw;
+}
+.cTimeSmallPageEvent{
+	float: right;
+	display: inline-block;
+	margin-right: 0.5vw;
+}
+.timeSmallPageEvent{
+	height: 5vw;
+	width: 5vw;	
+}
+.textPageEventSmallPageEvent{
+	font-size: 2em;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+.textSmallPageEvent{
+	display: inline-block;
+	font-size: 2em;
+	margin-top: 2vw;
+}
+.cTextSmallPageEvent{
+	margin-left: -2vw;
+	display: block;
+	width: 93vw;
+	height: 25vh;
 	overflow: hidden;
+	margin-top: 3vh;
 }
-.imgConfirm{
+.textSmallPageEvent{
+	font-size: 2em; 
+	margin: 0vw 0vw 0vw 5vw; 
+	height: 80vw; 
+}
+.imgConfirmSmallPageEvent{
 	bottom: 5vh; 
 	right: 10vw; 
 	width: 15vw; 
 	height: 15vw;
-	border-radius: 10vw;
 }
-.imgNot{
+.imgNotSmallPageEvent{
 	bottom: 5vh; 
 	left: 10vw; 
 	width: 15vw; 
 	height: 15vw;
 	border-radius: 10vw;
 }
-.imgMap{
+.imgMapSmallPageEvent{
 	bottom: calc(5vh + 1vw);
 	left: 42.5vw; 
 	width: 13vw; 
 	height: 13vw;
 	border-radius: 2vw;"
 }
+/*	 SmallPageEvent */
+/*	 SmallPageEvent */
+
+/*	 StatusLayout	*/
+/*	 StatusLayout	*/
+.cLogo-StatusLayout{
+	height: 5vh;
+	width: 100%; 
+	margin-left: 5vw; 
+	padding-top: 1vh; 
+	margin-bottom: 4vh;
+}
+.imgLogo-StatusLayout{
+	display: inline-block; 
+	height: 5vh; 
+	width: 5vh; 
+	margin-top: -2.5vh
+}
+.cTextLogo-StatusLayout{
+	margin-left: 1vw;
+	display: inline-block;
+}
+.textLogo-StatusLayout{
+	font-size: 3.5em;
+}
+#cMain-StatusLayout{
+	height: 18vw;
+	margin-bottom: 4vh;
+	margin-left: 5vw; 
+	margin-right: 5vw; 
+	width: 90vw; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.c-StatusLayout{
+	display: inline-block;
+	height: 18vw;
+}
+.cImg-StatusLayout{
+	display: inline-block;
+	height: 10vh; 
+	width: auto; 
+	width: 18vw; 
+}
+.img-StatusLayout{
+	display: inline-block;
+	height: 18vw;
+	width: 18vw; 
+	border-radius: 4vw;
+}
+/*	 StatusLayout	*/
+/*	 StatusLayout	*/
+
+/*	 Presentation	*/
+/*	 Presentation	*/
+
 
 #cPresentationsImages{
+	border-top: #d9d9d9 0.5vh solid;
 }
-.cPresentationImage{
-	margin: 4vw 4vw 0vw 4vw;
-	height: 60vw;
+.cPresentation{
+	margin: 0vw;
+}
+
+/*	ProfilePoster	*/
+/*	ProfilePoster	*/
+
+.cProfilePoster{
+	display:inline-block; 
+	margin: 1vh 0 1vh 0;
+}
+.cImgProfilePoster{
+	display: inline-block;
+	margin-left: 1vw;
+}
+.imgProfile{
+	width: 10.5vw; 
+	height: 10.5vw; 
+	border-radius: 3vw
+}
+.cTextProfilePoster{
+	vertical-align: middle; 
+	height: 5vh; 
+	display: inline-block; 
+	margin-left: 1vw; 
+	width: 65vw; 
+	margin-right: 7vw;
+}
+.profileName{
+	font-size: 2.5em;
+	display: inline-block; 
+	margin-top: 1vh;
+}
+.timePost{
+	font-size: 2.2em; 
+	margin-left: 1vw;
+	display: inline-block;
+}
+.cMapProfilePoster{
+	display: inline-block; 
+	color: white; 
+	background: white; 
+	margin-right: 0.5vw;
+}
+.imgMapProfilePoster{
+	width: 8vw; 
+	height: 8vw; 
+	margin-top: -0.5vw;
+}
+.cEllipsis{
+	display: inline-block; 
+	background: white;
+}
+.imgEllipsis{
+	width: 1vh; 
+	height: 4vh;
+}
+/*	ProfilePoster	*/
+/*	ProfilePoster	*/
+
+/*	PresentationImage	*/
+/*	PresentationImage	*/
+.imgPresentation{
+	border-bottom: #d9d9d9 0.5vh solid;
 }
 .cPresentationText{
 	margin-top: -35vw;
@@ -240,4 +483,6 @@ margin: auto;
 	margin-left:1vw;
 	font-size:2.5em; 
 	color: white;
-}
+
+}/*	PresentationImage	*/
+/*	PresentationImage	*/
