@@ -1,4 +1,7 @@
 # Bora - FrontEnd (smartphone)
 
-This is the frontend of a app to find events on a city, this was made with Html, Css3 and Javascript. 
-But you need to use a smartphone to see the page working
+This is the first version of a frontend for an app, this was made with Html, Css3 and Javascript.
+
+# What have I learned?
+
+Javascript, Jquery, Bootstrap, Html, CSS
