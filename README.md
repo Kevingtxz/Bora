@@ -6,4 +6,6 @@ This is the first version of a frontend for an app, this was made with Html, Css
 
 Javascript, Jquery, Bootstrap, Html, CSS
 
-![GitHub Image](/project2.png)
+![](Example.png)
+![](Project1.bmp)
+![](Project2.png)
