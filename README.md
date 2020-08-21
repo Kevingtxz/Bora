@@ -5,3 +5,5 @@ This is the first version of a frontend for an app, this was made with Html, Css
 # What have I learned?
 
 Javascript, Jquery, Bootstrap, Html, CSS
+
+![GitHub Image](/project2.png)
