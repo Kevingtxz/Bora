@@ -1,3 +1,5 @@
+![](Example.png)
+
 # Bora - FrontEnd (smartphone)
 
 This is the first version of a frontend for an app, this was made with Html, Css3 and Javascript.
@@ -6,6 +8,5 @@ This is the first version of a frontend for an app, this was made with Html, Css
 
 Javascript, Jquery, Bootstrap, Html, CSS
 
-![](Example.png)
 ![](Project1.bmp)
 ![](Project2.png)
