@@ -4,7 +4,7 @@
 
 ## Description
 
-This is the first version of a frontend for an app, this was made with Html, Css3 and Javascript.
+Bora is a platform to find atividades like football, volleyball, party and others around your city.
 
 ![](Project1.bmp)
 
